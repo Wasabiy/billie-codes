@@ -1,0 +1,15 @@
+{
+  "name": "rust-wasm-lib",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rust_wasm_lib_bg.wasm",
+    "rust_wasm_lib.js",
+    "rust_wasm_lib.d.ts"
+  ],
+  "main": "rust_wasm_lib.js",
+  "types": "rust_wasm_lib.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
